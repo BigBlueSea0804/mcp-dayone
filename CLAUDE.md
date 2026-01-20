@@ -48,7 +48,7 @@ This is a comprehensive MCP (Message Control Protocol) server that provides full
 
 ### Getting Started
 1. Install Day One app and CLI from [Day One CLI Guide](https://dayoneapp.com/guides/tips-and-tutorials/command-line-interface-cli)
-2. Verify CLI access: `dayone2 --version`
+2. Verify CLI access: `dayone --version`
 3. Install project: `uv sync`
 4. Test setup: `uv run python test_setup.py`
 5. Configure Claude Desktop with absolute path to this project
@@ -60,7 +60,7 @@ This is a comprehensive MCP (Message Control Protocol) server that provides full
 ## Dependencies
 
 ### Required System Dependencies
-- **Day One CLI** (`dayone2`) - Install from [Day One CLI Guide](https://dayoneapp.com/guides/tips-and-tutorials/command-line-interface-cli). Must be accessible in PATH.
+- **Day One CLI** (`dayone`) - Install from [Day One CLI Guide](https://dayoneapp.com/guides/tips-and-tutorials/command-line-interface-cli). Must be accessible in PATH.
 - **Python 3.11+** 
 - **uv package manager** - Install from [astral.sh](https://astral.sh/uv/install.sh)
 

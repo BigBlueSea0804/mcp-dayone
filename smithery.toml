@@ -9,7 +9,7 @@ license = "MIT"
 dependencies = [
     "python >= 3.11",
     "uv",
-    "dayone2"
+    "dayone"
 ]
 
 [install.steps]

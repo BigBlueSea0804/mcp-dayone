@@ -30,7 +30,7 @@ This MCP server enables Claude Desktop to interact with your Day One journal thr
 
 ## Prerequisites
 
-- **Day One CLI** (`dayone2`) - [Install from Day One website](https://dayoneapp.com/guides/tips-and-tutorials/command-line-interface-cli)
+- **Day One CLI** (`dayone`) - [Install from Day One website](https://dayoneapp.com/guides/tips-and-tutorials/command-line-interface-cli)
 - **Python 3.11+** 
 - **uv** - [Install from astral.sh](https://astral.sh/uv/install.sh)
 
@@ -45,7 +45,7 @@ This MCP server is designed for **zero-configuration installation** - you only n
 **Day One CLI Installation:**
 1. Download and install Day One from the Mac App Store or Day One website
 2. The Day One CLI is **automatically included** with the app - no separate installation needed!
-3. Verify it's working: `dayone2 --version`
+3. Verify it's working: `dayone --version`
 
 **Python and uv:**
 ```bash
@@ -53,7 +53,7 @@ This MCP server is designed for **zero-configuration installation** - you only n
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Verify Day One CLI is accessible
-dayone2 --version
+dayone --version
 ```
 
 ### 2. Clone and Setup (Automatic dependency management)
@@ -231,8 +231,8 @@ uv run pytest
 ## Troubleshooting
 
 ### Day One CLI Not Found
-- Verify Day One CLI is installed: `dayone2 --version`  
-- Check that `dayone2` is in your PATH
+- Verify Day One CLI is installed: `dayone --version`  
+- Check that `dayone` is in your PATH
 - Install Day One app and CLI from: https://dayoneapp.com/guides/tips-and-tutorials/command-line-interface-cli
 
 ### Claude Desktop Connection Issues

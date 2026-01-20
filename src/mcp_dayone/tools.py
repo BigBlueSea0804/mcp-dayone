@@ -19,7 +19,7 @@ class DayOneError(Exception):
 class DayOneTools:
     """Wrapper for Day One CLI operations."""
     
-    def __init__(self, cli_path: str = "dayone2"):
+    def __init__(self, cli_path: str = "dayone"):
         self.cli_path = cli_path
         self._verify_cli()
         self.db_path = self._get_db_path()
